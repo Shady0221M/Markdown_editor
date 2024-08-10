@@ -1,0 +1,21 @@
+.newsection, #new{
+    width:250px;
+    height:150px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    display:flex;
+    /* visibility:hidden; */
+    background-color: rgb(103, 85, 7);
+    opacity:0.6;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    border-radius: 5px;
+}
+#new> *{
+    width:80%;
+    height:20%;
+}
